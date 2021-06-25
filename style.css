@@ -76,7 +76,11 @@ footer p {
 }
 
 @media (max-width: 800px) {
+    .links ul li {
+        max-width: 390px;
+    }
     .links ul li a {
+        /*max-width: 390px;*/
         width: 390px;
     }
 }
